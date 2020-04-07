@@ -1,0 +1,85 @@
+/* Responsive CSS Document */
+
+/* 
+    Created on   : 04/04/2019.
+    Theme Name   : CVR- CV-Resume Template.
+    Version      : 1.0.
+    Developed by : Jubayer al hasan. (jubayer.hasan1991@gmail.com)
+   
+*/
+
+@media (min-width: 992px) {
+  .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media (max-width: 1199px) {
+  .testimonial-seaction .testimonial-slider {width: 100%;}
+  .qualification-block .single-block {padding-left: 20px;padding-right: 15px;}
+}
+/*(max-width: 1199px)*/
+
+@media (max-width: 991px) {
+  .switcher {top:90px;}
+  #main-page {margin: 0;}
+  #aside-nav-wrapper {
+    height: 75px;
+    width: 100%;
+  }
+  #aside-nav-wrapper .cv-button,#aside-nav-wrapper .logo {display: none;}
+  #theme-menu-list ul {
+    padding-left: 0;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+  }
+  #theme-menu-list ul li a {padding: 41px 0 10px;text-align: center;font-size: 16px;}
+  #theme-menu-list ul li a.active {padding-left: 0;}
+  #theme-menu-list ul li a:before {display: none;}
+  #theme-menu-list ul li a .icon {display: block;}
+  #main-page section#home {height: auto;min-height: 100vh; padding: 150px 0 100px;}
+  #main-page section#home .main-wrapper {top:auto; transform: none;}
+  #main-page section .main-wrapper-bg {padding: 80px 15px 20px;}
+  #isotop-gallery-wrapper .grid-sizer, #isotop-gallery-wrapper .isotop-item {width: 50%;}
+  #about .about-block .cv-button {display: inline-block;margin-top: 5px;}
+  .blog-sidebar,.blog-details {margin-top: 80px;}
+} 
+/*(max-width: 991px)*/
+
+
+@media (max-width: 767px) {
+  #main-page section#home .main-wrapper h1 {font-size: 40px;}
+  #main-page section#home .main-wrapper h4 {margin-bottom: 30px;}
+  #main-page section#home .main-wrapper .cd-headline {display: block;padding: 0 0 10px 0; text-align: center;}
+  #main-page section#home .main-wrapper .cd-headline .cd-words-wrapper,.cd-words-wrapper b {text-align: center;}
+  #main-page section#home .main-wrapper .cd-headline:after {top:90%;right: 50%;margin: 0 -2px 0 0;}
+  #about .about-block .my-img {margin-bottom: 40px;}
+  .theme-title {font-size: 40px;padding-bottom: 30px;}
+  .theme-title-two {font-size: 30px;margin-bottom: 32px;}
+  .pt-130 {padding-top: 90px;}
+  .testimonial-seaction .testimonial-slider p {font-size: 26px;line-height: 42px;margin: 30px 0 25px;}
+  .project-gallery-wrapper .isotop-menu-wrapper {text-align: center;}
+  #isotop-gallery-wrapper {margin-top: 20px;}
+  .single-blog-list-item .post-data {padding: 40px 15px 0;}
+  .blog-details-main-content .comment-box,.blog-details-main-content .reply-form {padding-left: 15px;padding-right: 15px;}
+  .blog-details-main-content .comment-box .single-comment.reply-comment {margin-left: 25px;}
+}
+/*(max-width: 767px)*/
+
+
+@media (max-width: 575px) {
+  #theme-menu-list ul li a {font-size: 14px;}
+  #theme-menu-list ul li a .icon {top:12px;font-size: 16px;}
+  #about .about-block .profile-list li {width: 100%;}
+  .blog-details-main-content .author-text img {margin: 0 auto;}
+  .blog-details-main-content .author-text .text {width: 100%;padding: 30px 15px 25px;text-align: center;}
+  .blog-details-main-content .comment-box .single-comment .comment .reply {position: static;margin-top: 10px;}
+}
+/*(max-width: 575px)*/
+
+@media (max-width: 500px) {
+  #isotop-gallery-wrapper .grid-sizer, #isotop-gallery-wrapper .isotop-item {width: 100%;}
+}

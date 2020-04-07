@@ -1,0 +1,17 @@
+#theme-menu-list ul li a:before,#main-page section#home .main-wrapper .cd-headline:after,body .button--wayra:hover::before,
+.theme-title-two:before,.pricing-plan .single-plan-table:hover a,.blog-details-main-content .mark-text:before,.blog-details-main-content .author-text .text ul li a:hover,
+.blog-sidebar .sidebar-keyword ul li a:hover {
+	background: #fe4b68;
+}
+.skill-progress .progress .progress-bar {background-color: #fe4b68;}
+
+.switcher .switch-btn button,#theme-menu-list ul li a:hover,#theme-menu-list ul li a.active,#aside-nav-wrapper .cv-button,#main-page section#home .main-wrapper .social-icon li a:hover,.theme-title span,
+#about .about-block .text p .name,.theme-title-two span,.service-block .single-core-service .icon,.service-block .single-core-service:hover h5 a,.our-blog .blog-post:hover .blog-title a,
+.contact-address .single-block .icon,.blog-sidebar .sidebar-categories ul li a:hover,.blog-sidebar .sidebar-recent-news ul li:hover .post h5 a  {
+	color: #fe4b68;
+}
+body .button--wayra:hover,.project-gallery-wrapper .isotop-menu-wrapper li.is-checked,.blog-details-main-content .author-text .text ul li a:hover,
+.blog-sidebar .sidebar-keyword ul li a:hover {
+	border-color: #fe4b68;
+}
+.qualification-block .single-block {border-left-color: #fe4b68;}
